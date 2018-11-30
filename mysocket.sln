@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mysocket", "mysocket.vcxproj", "{2E48238A-3595-4902-9C1F-2E02D9E17EDD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tcpserver", "..\tcpserver1\tcpserver.vcxproj", "{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E48238A-3595-4902-9C1F-2E02D9E17EDD} = {2E48238A-3595-4902-9C1F-2E02D9E17EDD}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +26,14 @@ Global
 		{2E48238A-3595-4902-9C1F-2E02D9E17EDD}.Release|x64.Build.0 = Release|x64
 		{2E48238A-3595-4902-9C1F-2E02D9E17EDD}.Release|x86.ActiveCfg = Release|Win32
 		{2E48238A-3595-4902-9C1F-2E02D9E17EDD}.Release|x86.Build.0 = Release|Win32
+		{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}.Debug|x64.ActiveCfg = Debug|x64
+		{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}.Debug|x64.Build.0 = Debug|x64
+		{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}.Debug|x86.Build.0 = Debug|Win32
+		{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}.Release|x64.ActiveCfg = Release|x64
+		{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}.Release|x64.Build.0 = Release|x64
+		{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}.Release|x86.ActiveCfg = Release|Win32
+		{F13D9326-E84B-4EF4-8EFA-DABC3511E52E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
