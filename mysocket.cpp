@@ -1,6 +1,6 @@
 ﻿// mysocket.cpp : 定义 DLL 应用程序的导出函数。
 //
-
+// modify something
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
